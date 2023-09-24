@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var btnprotein:Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+//        setContentView(R.layout.activity_main)
 //        setContentView(R.layout.layout_main)
 
 

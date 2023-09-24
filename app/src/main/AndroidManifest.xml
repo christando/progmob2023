@@ -13,6 +13,24 @@
         android:theme="@style/Theme.Progmob2023New"
         tools:targetApi="31">
         <activity
+            android:name=".SampleCardView"
+            android:exported="false" />
+        <activity
+            android:name=".SampleRecyclerView"
+            android:exported="false" />
+        <activity
+            android:name=".SampleListView"
+            android:exported="false" />
+        <activity
+            android:name=".SampleList"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".ProteinTrackerActivity"
             android:exported="false" />
         <activity
