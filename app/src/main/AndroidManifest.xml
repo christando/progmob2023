@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Progmob2023New"
         tools:targetApi="31">
         <activity
+            android:name="com.example.progmob2023.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".GetAPIActivity"
             android:exported="false" />
         <activity
